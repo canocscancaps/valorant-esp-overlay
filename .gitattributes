@@ -1,0 +1,12 @@
+*.yml linguist-detectable=false
+
+**/*.py linguist-detectable
+
+yarn.lock linguist-generated
+
+go.sum linguist-generated
+vendor/* linguist-vendored
+*.html linguist-vendored
+node_modules/* linguist-vendored
+
+* text=auto eol=lf
